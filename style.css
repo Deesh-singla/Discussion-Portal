@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#start {
+    background-color: darkcyan;
+    color: white;
+    height: 10%;
+}
+
+#main {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+#left {
+    width: 30%;
+    overflow-y: auto;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#head {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+#newQues {
+    padding: 5px;
+    cursor: pointer;
+}
+
+#right {
+    width: 70%;
+    overflow-y: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#right_main {
+    flex-grow: 1;
+    padding: 5%;
+}
+
+#right_main h1 {
+    font-size: 50px;
+}
+
+#right_main p {
+    margin-top: 10px;
+    font-size: large;
+}
+
+#subject,
+#username {
+    margin-top: 20px;
+    width: 180px;
+    height: 25px;
+    font-size: large;
+}
+
+#ques,
+#response {
+    margin-top: 20px;
+}
+
+#submitQues {
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 15px;
+    width: 70px;
+}
+
+.left_ques h2 {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.left_ques p {
+    margin-left: 10px;
+}
+
+.left_ques {
+    cursor: pointer;
+}
+
+.doubt {
+    background-color: lightgray;
+    color: black;
+    height: 11%;
+    width: 98%;
+    padding: 2%;
+    margin-bottom: 20px;
+}
+
+.doubt h3 {
+    font-size: 25px;
+}
+
+#main2 {
+    height: 100%;
+    width: 100%;
+}
+
+#main2 h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#addResponse {
+    margin-bottom: 0px;
+}
